@@ -67,7 +67,3 @@ function playGame() {
   viewers[1].appendChild(die2);
   output.innerText = winner(player1, player2) + "....roll again ?";
 }
-
-// for (let i = 0; i < 20; i++) {
-//   console.log(roll());
-// }
